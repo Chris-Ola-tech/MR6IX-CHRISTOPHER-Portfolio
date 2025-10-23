@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing skills, projects, and experience in web development">
+    <meta name="author" content="CHRISTOPHER OLAWALE">
+    <title>Portfolio | CHRISTOPHER OLAWALE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./assets/img/third pic.jpg">
+</head>
+<body>
+    <!-- ==================== HEADER SECTION ==================== -->
+    <header class="header" role="banner">
+        <div class="header-container">
+            <!-- Logo - Text-based design -->
+            <a href="#home" class="logo" aria-label="Portfolio Home">MR<span style="font-weight: 400;">6IX</span></a>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation Menu -->
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <a href="#skills" class="nav-link" data-page="skills">Skills</a>
+                <a href="#projects" class="nav-link" data-page="projects">Projects</a>
+                <a href="#about" class="nav-link" data-page="about">About</a>
+                <a href="#testimonials" class="nav-link" data-page="testimonials">Testimonials</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <p class="hero-greeting">Welcome to my portfolio</p>
+                
+                <h1 class="hero-title">
+                    Hi, I'm <span class="hero-title-name">CHRISTOPHER</span>
+                </h1>
+                
+                <!-- Typing Animation Container -->
+                <div class="hero-typing-container">
+                    <span class="hero-typing" id="typingText"></span>
+                    <span class="typing-cursor"></span>
+                </div>
+                
+                <p class="hero-description">
+                    I’m passionate about crafting elegant, 
+                   effective solutions for real-world challenges.
+                   I build modern, user-focused interfaces that turn ideas into clean,
+                    functional, and visually engaging web experiences.
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#about" class="btn btn-secondary">About Me</a>
+                </div>
+            </div>
+            
+            <!-- Hero Image -->
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-placeholder">
+                        <!-- Add your image here: <img src="your-image.jpg" alt="Your Name"> -->
+                         <img src="./assets/img/first pic.jpg" alt="olawle picture">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section class="skills" id="skills">
+        <div class="skills-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <p class="section-subtitle">Technical Expertise</p>
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-description">
+                    A comprehensive overview of my technical proficiency across various 
+                    technologies and tools that I use to build exceptional web experiences.
+                </p>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="skills-grid">
+                <!-- Skill: HTML -->
+                <div class="skill-item" data-percentage="90">
+                    <div class="skill-header">
+                        <h3 class="skill-name">HTML</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill" style="--skill-percentage: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill: CSS -->
+                <div class="skill-item" data-percentage="85">
+                    <div class="skill-header">
+                        <h3 class="skill-name">CSS</h3>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill" style="--skill-percentage: 85%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill: Tailwind -->
+                <div class="skill-item" data-percentage="90">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Tailwind</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill" style="--skill-percentage: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill: JavaScript -->
+                <div class="skill-item" data-percentage="90">
+                    <div class="skill-header">
+                        <h3 class="skill-name">JavaScript</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill" style="--skill-percentage: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill: Responsive Design -->
+                <div class="skill-item" data-percentage="95">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Responsive Design</h3>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill" style="--skill-percentage: 95%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill: Git & Version Control -->
+                <div class="skill-item" data-percentage="88">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Git & Version Control</h3>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill" style="--skill-percentage: 88%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill: Web Performance -->
+                <div class="skill-item" data-percentage="87">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Web Performance</h3>
+                        <span class="skill-percentage">87%</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill" style="--skill-percentage: 87%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill: UI/UX Design -->
+                <div class="skill-item" data-percentage="82">
+                    <div class="skill-header">
+                        <h3 class="skill-name">UI/UX Design</h3>
+                        <span class="skill-percentage">82%</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-bar-fill" style="--skill-percentage: 82%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Section Heading -->
+    <div class="section-header" id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">
+        A showcase of my latest work — clean, responsive, and crafted with passion.
+      </p>
+    </div>
+
+    <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        
+                        <img src="./assets/img/salon.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"> MR6IX Glam</h3>
+                        <p class="project-description">
+                            A fully responsive beauty and salon website featuring elegant 
+                            multi-page design with sections for services, team profiles,
+                             booking, and location details. It highlights the brand’s story, showcases expert stylists,
+                             and delivers a smooth, modern user experience across all devices.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="https://chris-ola-tech.github.io/salon-template/" class="project-btn btn-demo">Live Demo</a>
+                            <a href="https://github.com/Chris-Ola-tech/salon-template" class="project-btn btn-code">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/img/food website.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MR6IX Eats</h3>
+                        <p class="project-description">
+                            A fully responsive restaurant website featuring WhatsApp order integration,
+                             an interactive food gallery, customer testimonials,
+                             and smooth navigation for a seamless and enjoyable dining experience online.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="https://chris-ola-tech.github.io/salon-template/" class="project-btn btn-demo">Live Demo</a>
+                            <a href="https://github.com/Chris-Ola-tech/food-business-demo" class="project-btn btn-code">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/img/musictwo.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MR6IX Hub</h3>
+                        <p class="project-description">
+                           A dynamic and responsive music website where users can listen to songs with full lyrics,
+                            explore different artists and their tracks, read and comment on the latest music news, 
+                            and download their favorite songs. It also features ranked music charts, smooth transitions, 
+                           and an intelligent search system that quickly finds any artist or song.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="https://chris-ola-tech.github.io/MR6IX-HUB/" class="project-btn btn-demo">Live Demo</a>
+                            <a href="https://github.com/Chris-Ola-tech/MR6IX-HUB" class="project-btn btn-code">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                         <img src="./assets/img/todo list.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MR6IX Todo</h3>
+                        <p class="project-description">
+                           A modern, JavaScript-powered to-do app featuring smooth animations,
+                            smart time alerts, and seamless local storage integration.
+                             Designed with a clean interface and responsive layout for an efficient,
+                            distraction-free productivity experience.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="https://chris-ola-tech.github.io/MR6IX-Todo/" class="project-btn btn-demo">Live Demo</a>
+                            <a href="https://github.com/Chris-Ola-tech/MR6IX-Todo" class="project-btn btn-code">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+
+
+
+
+
+        <!-- About Section HTML -->
+<section class="about" id="about">
+    <div class="about-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <p class="section-subtitle">Get To Know Me</p>
+            <h2 class="section-title">About Me</h2>
+            <p class="section-description">
+                Learn more about my journey, passion for web development, 
+                and what drives me to create exceptional digital experiences.
+            </p>
+        </div>
+
+        <!-- About Content -->
+        <div class="about-content">
+            <!-- Profile Picture -->
+            <div class="about-image">
+                <div class="profile-picture-wrapper">
+                    <img src="./assets/img/second pic.jpg" alt="Wale - Frontend Developer" class="profile-picture">
+                    <div class="floating-badge badge-1">HTML</div>
+                    <div class="floating-badge badge-2">CSS</div>
+                    <div class="floating-badge badge-3">JS</div>
+                </div>
+            </div>
+
+            <!-- About Text -->
+            <div class="about-text">
+                <h3 class="about-headline">
+                    Hi, I'm <span class="name-highlight">Chris</span> a Frontend Developer passionate about creating elegant, responsive designs.
+                </h3>
+                <p class="about-description">
+                   With a strong foundation in <strong>CSS, JavaScript, and Tailwind</strong>, I build modern,
+                    responsive web applications that are both visually appealing and highly user-friendly.
+                     I focus on writing clean, maintainable code while staying current with the latest industry trends and best practices,
+                    ensuring every project I create delivers an exceptional user experience.
+                </p>
+                <p class="about-description">
+                    I’m dedicated to continuous learning and growth in the ever-evolving world of web development.
+                     From crafting pixel-perfect interfaces to optimizing performance, 
+                    I bring both passion and precision to every project I work on.
+                </p>
+
+                <!-- Stats Counter -->
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+                
+                <!-- Download CV Button -->
+                <a href="#" class="cv-button">
+                    <span class="cv-icon">↓</span>
+                    <span>Download CV</span>
+                    <div class="button-glow"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Background Elements -->
+    <div class="about-bg-decoration">
+        <div class="floating-circle circle-1"></div>
+        <div class="floating-circle circle-2"></div>
+        <div class="floating-circle circle-3"></div>
+    </div>
+</section>
+    </div>
+
+    <!-- Animated Background Elements -->
+    <div class="about-bg-decoration">
+        <div class="floating-circle circle-1"></div>
+        <div class="floating-circle circle-2"></div>
+        <div class="floating-circle circle-3"></div>
+    </div>
+</section>
+
+
+
+
+<!-- Contact Section HTML -->
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <p class="section-subtitle">Let's Connect</p>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">
+                I'm currently available for freelance work — let's build something great together.
+            </p>
+        </div>
+
+        <!-- Contact Content -->
+        <div class="contact-content">
+            <!-- Contact Info Side -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3 class="info-title">Email Me</h3>
+                    <p class="info-text">christopherolawale31@gmail.com</p>
+                    <a href="mailto:christopherolawale31@gmail.com" class="info-link">Send Email</a>
+                </div>
+
+                <div class="info-card">
+                    <h3 class="info-title">Call Me</h3>
+                    <p class="info-text">+234 813 426 0378</p>
+                    <a href="tel:+2348134260378" class="info-link">Make Call</a>
+                </div>
+
+                <div class="info-card">
+                    <h3 class="info-title">Location</h3>
+                    <p class="info-text">Ibadan, Nigeria</p>
+                    <a href="#" class="info-link">View Map</a>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <div class="social-placeholder" aria-label="LinkedIn">
+                        <img src="./assets/img/linkedin.png" class="social-img">
+                    </div>
+                    <div class="social-placeholder" aria-label="GitHub">
+                        <img src="./assets/img/facebook.png" class="social-img">
+                    </div>
+                    <div class="social-placeholder" aria-label="Twitter">
+                        <img src="./assets/img/twitter.png" class="social-img">
+                    </div>
+                    <div class="social-placeholder" aria-label="Instagram">
+                        <img src="./assets/img/instagram.png" class="social-img">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Contact Form Side -->
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <!-- Name Field -->
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            class="form-input" 
+                            placeholder="Enter your name"
+                            required
+                        >
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="form-input" 
+                            placeholder="Enter your email"
+                            required
+                        >
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="form-group">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            class="form-input form-textarea" 
+                            placeholder="Tell me about your project..."
+                            rows="6"
+                            required
+                        ></textarea>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">Send via WhatsApp</span>
+                        <div class="button-shine"></div>
+                    </button>
+                </form>
+
+                <!-- Success Message -->
+                <div class="success-message" id="successMessage">
+                    <div class="success-icon">✓</div>
+                    <h3 class="success-title">Message Prepared!</h3>
+                    <p class="success-text">Your message has been formatted. WhatsApp will open shortly.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Decoration -->
+    <div class="contact-bg-decoration">
+        <div class="decoration-wave wave-1"></div>
+        <div class="decoration-wave wave-2"></div>
+    </div>
+</section>
+
+
+
+
+<section class="testimonials" id="testimonials">
+        <div class="testimonials-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <p class="section-subtitle">Testimonials</p>
+                <h2 class="section-title">What Clients Say</h2>
+                <p class="section-description">
+                    Here's what people are saying about my work
+                </p>
+            </div>
+
+            <!-- Testimonials Display -->
+            <div class="testimonials-display">
+                <div class="testimonials-carousel" id="testimonialsCarousel">
+                    <!-- Existing testimonials will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Submit Testimonial Form -->
+            <div class="testimonial-form-wrapper">
+                <h3 class="form-title">Share Your Experience</h3>
+                <p class="form-subtitle">Have you worked with me? I'd love to hear your feedback!</p>
+                <form class="testimonial-form" id="testimonialForm">
+                    <div class="form-group">
+                        <label for="clientName" class="form-label">Your Name *</label>
+                        <input 
+                            type="text" 
+                            id="clientName" 
+                            class="form-input" 
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="clientRole" class="form-label">Your Role / Company</label>
+                        <input 
+                            type="text" 
+                            id="clientRole" 
+                            class="form-input" 
+                            placeholder="e.g. CEO at Tech Co."
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="clientImage" class="form-label">Image URL (Optional)</label>
+                        <input 
+                            type="url" 
+                            id="clientImage" 
+                            class="form-input" 
+                            placeholder="https://example.com/image.jpg"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="testimonialText" class="form-label">Your Testimonial *</label>
+                        <textarea 
+                            id="testimonialText" 
+                            class="form-textarea" 
+                            placeholder="Share your experience working with me..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Testimonial</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Toast -->
+    <div class="success-toast" id="successToast">
+        <span class="toast-icon">✓</span>
+        <span class="toast-message">Testimonial added successfully!</span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="site-footer" id="footer">
+        <div class="footer-inner">
+            <!-- Top Row: Brand | Nav | Socials -->
+            <div class="footer-top">
+                <!-- Footer Brand -->
+                <div class="footer-brand">
+                    <!-- INSERT TEXT LOGO HERE -->
+                    <a href="#home" class="logo" aria-label="Portfolio Home">MR<span style="font-weight: 400;">6IX</span></a>
+            
+                    <p class="footer-tagline">
+                        Crafting modern web experiences with clean code and creative solutions.
+                    </p>
+                </div>
+
+                <!-- Footer Navigation -->
+                <nav class="footer-nav">
+                    <h3 class="footer-nav-title">Quick Links</h3>
+                    <ul class="footer-nav-list">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#skills" class="footer-link">Skills</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                        <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Footer Socials -->
+                <div class="footer-socials">
+                    <h3 class="footer-socials-title">Connect</h3>
+                    <div class="social-links">
+                        <!-- LinkedIn - Add image manually -->
+                        <a href="#" class="social-link-footer" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/linkedin.png">
+                        </a>
+                        
+                        <!-- GitHub - Add image manually -->
+                        <a href="#" class="social-link-footer" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/github.png">
+                        </a>
+                        
+                        <!-- Instagram - Add image manually -->
+                        <a href="#" class="social-link-footer" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/instagram.png">
+                        </a>
+                        
+                        <!-- Twitter - Add image manually -->
+                        <a href="#" class="social-link-footer" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/twitter.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optional Newsletter Section (easily removable) -->
+            <div class="footer-newsletter">
+                <h3 class="newsletter-title">Stay Updated</h3>
+                <p class="newsletter-subtitle">Get notified about new projects and updates</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input 
+                        type="email" 
+                        class="newsletter-input" 
+                        placeholder="Enter your email"
+                        required
+                        aria-label="Email address"
+                    >
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+                <p class="newsletter-success" id="newsletterSuccess">
+                    ✓ Thanks for subscribing!
+                </p>
+            </div>
+
+            <!-- Bottom Row: Copyright & Credit -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2025 MR6IX. All Rights Reserved.
+                </p>
+                <p class="footer-credit">
+                    Designed & built by <a href="#about">Wale (MR6IX)</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <!-- Insert up arrow image here -->
+    </button>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script src="./script.js"></script>
+</body>
+</html>
